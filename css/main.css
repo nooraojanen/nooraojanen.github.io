@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  height: 100vh;
+  margin: auto;
+  font-family: 'Poppins';
+  padding-left: 4rem;
+  padding-right: 4rem;
+  max-width: 1366px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, button, img {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 16px;
+  color: #000000a8;
+}
+
+.nav-container a {
+  color: #000000;
+}
+
+.container {
+  padding: 2rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2em;
+}
+
+header .logo {
+  color: #000000;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav ul a {
+  display: block;
+  padding: 0 1rem;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2rem;
+}
+
+.hero .content-left {
+  float: left;
+  padding-right: 3rem;
+}
+
+.hero .content-right {
+  float: right;
+}
+
+.hero .content-right .social-media {
+  display: block;
+}
+
+.hero .content-right .social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 6em;
+}
+
+.hero .content-right .social-media ul img {
+  width: 20px;
+  color: pink;
+}
+
+.scroll {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+}
+
+.scroll img {
+  height: 20px;
+  color: #a7a7a7;
+}
+
+.work {
+  padding: 2rem;
+}
+
+.work .work-title {
+  padding-bottom: 2rem;
+}
+
+.work .project-1 .display-img {
+  height: 500px;
+}
+
+button {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  padding: 10px 20px 10px 20px;
+  margin-right: 1rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
