@@ -3,8 +3,6 @@ body {
   height: 100vh;
   margin: auto;
   font-family: 'Poppins';
-  padding-left: 4rem;
-  padding-right: 4rem;
   max-width: 1366px;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -22,6 +20,7 @@ a {
 
 img {
   width: 100%;
+  height: auto;
 }
 
 h1, h2, h3, h4, button, img {
@@ -53,17 +52,33 @@ p {
   color: #000000;
 }
 
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  color: #000000;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger img {
+  height: 20px;
+  margin: 0;
+}
+
+.hamburger:focus {
+  outline: none;
+}
+
 .container {
-  max-width: 720px;
-  align-content: center;
-  margin: auto;
-  padding-bottom: 4rem;
+  padding: 2rem;
 }
 
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -124,19 +139,6 @@ header nav ul a {
   color: pink;
 }
 
-.scroll {
-  padding: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-}
-
-.scroll img {
-  height: 20px;
-  color: #a7a7a7;
-}
-
 .work {
   padding: 2rem;
 }
@@ -146,15 +148,10 @@ header nav ul a {
 }
 
 .work .project-1 .display-img {
-  max-height: 500px;
+  height: 500px;
 }
 
-.case-img {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-button {
+.hero-button {
   color: #000000;
   background-color: #ffffff;
   border-radius: 5px;
@@ -167,4 +164,24 @@ button {
   text-align: center;
   padding: 2rem;
 }
-/*# sourceMappingURL=main.css.map */
+
+@media screen and (max-width: 767px) {
+  .nav-ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-ul.show {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .display-img {
+    width: 100%;
+    height: auto;
+  }
+}
