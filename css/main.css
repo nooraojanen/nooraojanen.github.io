@@ -23,19 +23,17 @@ img {
   height: auto;
 }
 
-h1, h2, h3, h4, button, img {
-  margin-bottom: 1rem;
-}
-
 h1 {
   font-size: 36px;
   font-weight: 400;
+  padding-bottom: 40px;
 }
 
 h2 {
   font-size: 24px;
   font-weight: 600;
   color: #000000;
+  padding-top: 40px;
 }
 
 h3 {
@@ -63,6 +61,7 @@ p {
 .hamburger img {
   height: 20px;
   margin: 0;
+  float: right;
 }
 
 .hamburger:focus {
@@ -71,13 +70,15 @@ p {
 
 .container {
   padding: 2rem;
+  max-width: 720px;
+  justify-content: center;
+  margin: auto;
 }
 
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -158,6 +159,11 @@ header nav ul a {
   border: 1px solid #000000;
   padding: 10px 20px 10px 20px;
   margin-right: 1rem;
+}
+
+.case-img {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer {
