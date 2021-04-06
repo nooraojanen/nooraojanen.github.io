@@ -5,7 +5,7 @@ body {
   font-family: 'Poppins';
   max-width: 1366px;
   -ms-flex-line-pack: center;
-      align-content: center;
+  align-content: center;
 }
 
 ul {
@@ -86,8 +86,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding: 2em;
 }
 
@@ -137,8 +137,8 @@ header nav ul a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   width: 4em;
 }
 
@@ -217,12 +217,10 @@ header nav ul a {
 
 
   .logo {
-    
     position: relative;
   }
 
   .nav-ul {
-    
     position: relative;
   }
 
