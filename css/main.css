@@ -46,8 +46,21 @@ p {
   color: #000000a8;
 }
 
+.center {
+  text-align: center;
+}
+
+.overview {
+  background-color: rgb(247, 248, 255);
+}
+
 .nav-container a {
   color: #000000;
+}
+
+.pd-1 {
+  padding: 1rem;
+  max-width: 900px;
 }
 
 .hamburger {
@@ -234,5 +247,9 @@ header nav ul a {
     float: none;
     display: flex;
     justify-content: center;
+  }
+
+  .pd-1 {
+    
   }
 }
