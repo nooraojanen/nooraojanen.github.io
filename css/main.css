@@ -3,9 +3,9 @@ body {
   height: 100vh;
   margin: auto;
   font-family: 'Poppins';
-  max-width: 1366px;
   -ms-flex-line-pack: center;
   align-content: center;
+  max-width: 1200px;
 }
 
 ul {
@@ -34,6 +34,7 @@ h2 {
   font-weight: 600;
   color: #000000;
   padding-top: 40px;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -60,7 +61,7 @@ p {
 
 .pd-1 {
   padding: 1rem;
-  max-width: 900px;
+  max-width: 1000px;
 }
 
 .hamburger {
@@ -90,7 +91,7 @@ p {
   padding: 2rem;
   max-width: 720px;
   justify-content: center;
-  margin: auto;
+  margin:auto;
 }
 
 header {
@@ -102,6 +103,8 @@ header {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 2em;
+  
+
 }
 
 header .logo {
@@ -110,6 +113,7 @@ header .logo {
 
 header nav {
   float: right;
+  
 }
 
 header nav ul {
@@ -128,7 +132,6 @@ header nav ul a {
   display: -ms-flexbox;
   display: flex;
   padding: 2rem 4rem 4rem 2rem;
-  max-width: 720px;
   font-weight:700;
 }
 
@@ -250,6 +253,7 @@ header nav ul a {
   }
 
   .pd-1 {
-    
+    width: 100%;
+    height: auto;
   }
 }
